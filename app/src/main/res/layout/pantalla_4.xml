@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="En 1929 el astrónomo Edwin Hubble descubrió que las velocidades de alejamiento o recesión de las galaxias aumentaban con el crecimiento de sus distancias.\nEste descubrimiento dio origen a la teoría cosmológica del Big Bang, que parte de la hipótesis de que toda la materia del Universo estaba concentrada en una esfera indefinida y que, tras la explosión de ésta, comenzó a expandirse, creando el binomio espacio-tiempo.\nHoy, esta teoria, aunque con matices, es generalmente aceptada por toda la comunidad científica.\nLa expansión continuaría actualmente y es la que los astrónomos miden bajo la forma de desplazamiento hacia el rojo de las bandas espectrales de los lejanos objetos galácticos. Según parece, el Universo se sigue expandiendo.\nLos astrónomos y los físicos ordenan el Universo en una jerarquía de escalas o tamaños cada vez menores. La descripción de los procesos en cada nivel es una generalización de los procesos que tienen lugar en su nivel inferior. Las leyes fundamentales de la Física son válidas (o deberían serlo, en eso estamos) para todas las escalas de organización de la materia y todos los tiempos.\n"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtInfo"
+                android:padding="5dp"
+                android:textStyle="normal|bold"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textAlignment="inherit" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/deepspace"
+        android:id="@+id/imgInfo"
+        android:background="#000000"/>
+</LinearLayout>
